@@ -7,8 +7,10 @@ In order to get started, follow these simple steps:
 
 1.Download and install the Flightgear Simulator from : https://www.flightgear.org/download/
 
-1.1 Linux users can enter the terminal (Ctrl+Alt+T) and type : sudo add-apt-repository ppa:saiarcot895/flightgear
-
+1.1 Linux users can enter the terminal (Ctrl+Alt+T) and type : 
+```bash
+sudo add-apt-repository ppa:saiarcot895/flightgear
+```
 2.launch Flightgear, go to settings and add the following commands under "additional settings":
 
 --telnet=socket,in,10,127.0.0.1,5400,tcp
