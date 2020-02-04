@@ -13,15 +13,20 @@ sudo add-apt-repository ppa:saiarcot895/flightgear
 ```
 2.launch Flightgear, go to settings and add the following commands under "additional settings":
 
+```bash
 --telnet=socket,in,10,127.0.0.1,5400,tcp
 
 --generic=socket,out,10,127.0.0.1,5402,tcp,generic_small
+```
 
 (The order of the lines does not matter!)
 
 3.Add the "generic_small.xml" file to Flightgear/Protocol
 
-3.1 Linux users - open the terminal and type : sudo nautilus /usr/share/games/flightgear/Protocol
+3.1 Linux users - open the terminal and type :
+```bash
+sudo nautilus /usr/share/games/flightgear/Protocol
+```
 
 4.Launch the program with the fly.txt file
 
